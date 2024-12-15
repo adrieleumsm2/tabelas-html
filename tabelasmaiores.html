@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazendo uma tabela grande</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+        table {
+           
+          
+            border-collapse: collapse;
+           
+            
+        }
+
+        th {
+            background-color: rgb(70, 68, 68);
+            color: white;
+            font-weight: 400;
+            
+
+        }
+
+        td {
+            text-align: center;
+        }
+
+        #conteudo {
+            overflow-x: auto;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div id="conteudo">
+       <table>
+    <thead>
+        <tr>
+            <th>Posição</th>
+            <th>Unidade Federativa</th>
+            <th>População <br> (Estimativa 2024)</th>
+            <th>População <br> (Censo 2010)</th>
+            <th>Mudança</th>
+            <th>Variação brusca</th>
+            <th>% da População total</th>
+            <th>País comparável</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Roraima</td>
+            <td>716 793</td>
+            <td>450 479</td>
+            <td>+59,11%</td>
+            <td>+266.314</td>
+            <td>0,31%</td>
+            <td>Montenegro <br> (649 335)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Acre</td>
+            <td>1 072 119</td>
+            <td>894 470</td>
+            <td>+19,86%</td>
+            <td>+177.649</td>
+            <td>0,46%</td>
+            <td>Bahamas <br>(409 731)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Amapá</td>
+            <td>910 841</td>
+            <td>845 731</td>
+            <td>+7,70%</td>
+            <td>+65.110</td>
+            <td>0,39%</td>
+            <td>Butão <br>(852 420)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Distrito Federal</td>
+            <td>3 354 994</td>
+            <td>3 093 325</td>
+            <td>+8,46%</td>
+            <td>+261.669</td>
+            <td>1,44%</td>
+            <td>Uruguai <br>(3 493 000)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Sergipe</td>
+            <td>2 445 754</td>
+            <td>2 318 822</td>
+            <td>+5,48%</td>
+            <td>+126.932</td>
+            <td>1,05%</td>
+            <td>Letônia <br>(1 846 000)</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Rondônia</td>
+            <td>1 916 540</td>
+            <td>1 815 278</td>
+            <td>+5,58%</td>
+            <td>+101.262</td>
+            <td>0,83%</td>
+            <td>Gabão <br>(2 065 000)</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Tocantins</td>
+            <td>1 720 490</td>
+            <td>1 607 363</td>
+            <td>+7,04%</td>
+            <td>+113.127</td>
+            <td>0,74%</td>
+            <td>Estônia <br>(1 334 000)</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Alagoas</td>
+            <td>3 474 824</td>
+            <td>3 351 543</td>
+            <td>+3,68%</td>
+            <td>+123.281</td>
+            <td>1,49%</td>
+            <td>Panamá <br>(4 650 000)</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Piauí</td>
+            <td>3 292 258</td>
+            <td>3 198 185</td>
+            <td>+2,95%</td>
+            <td>+94.073</td>
+            <td>1,41%</td>
+            <td>Jamaica <br>(2 875 000)</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Mato Grosso do Sul</td>
+            <td>2 954 239</td>
+            <td>2 802 424</td>
+            <td>+5,42%</td>
+            <td>+151.815</td>
+            <td>1,26%</td>
+            <td>Namíbia <br>(2 681 000)</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Paraíba</td>
+            <td>4 018 127</td>
+            <td>3 766 528</td>
+            <td>+6,69%</td>
+            <td>+251.599</td>
+            <td>1,73%</td>
+            <td>Noruega <br>(5 425 000)</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Santa Catarina</td>
+            <td>7 338 473</td>
+            <td>6 248 436</td>
+            <td>+17,44%</td>
+            <td>+1 090 037</td>
+            <td>3,16%</td>
+            <td>Sérvia <br>(6 690 000)</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Amazonas</td>
+            <td>4 525 479</td>
+            <td>3 483 985</td>
+            <td>+29,91%</td>
+            <td>+1 041 494</td>
+            <td>2,13%</td>
+            <td>Irlanda <br>(5 100 000)</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="2">Total</th>
+            <td>30 987 478</td>
+            <td>28 450 236</td>
+            <td>-</td>
+            <td>+2 537 242</td>
+            <td>13,30%</td>
+            <td>-</td>
+        </tr>
+    </tfoot>
+</table>
+
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto soluta quaerat commodi reiciendis nihil impedit, vitae dolor sint quae quasi officiis quisquam ullam explicabo, repudiandae aut. Eveniet alias at et.</p>
+</body>
+</html>
